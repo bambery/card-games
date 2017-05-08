@@ -8,3 +8,8 @@ this is a fun opportunity to write some text based card games.
 Without someone else dictating the requirements, I sort of just started 
 imagining what the games would look like. Formal requirements, tests, and a 
 general code cleanup are the next step.
+
+Next Steps:
+1. write up formal requirements
+2. write tests for basic functionality
+2. move individual game rules/actions out of subclasses and into modules

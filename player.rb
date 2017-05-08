@@ -109,7 +109,7 @@ class BlackjackPlayer < Player
   end
 
   def in_good_standing?
-    @hand_totals.keys.any?{ |total| total < 21 }
+    @hand_totals.keys.any?{ |total| total <= 21 }
   end
 
   # want an output like
